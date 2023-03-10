@@ -1,5 +1,5 @@
 <template>
-  <div v-show="!serverLocatKnowen">
+  <div v-if="!serverLocatKnowen">
 
     <div class="flex justify-center">
 
@@ -18,7 +18,7 @@
     </div>
 
   </div>
-  <div v-show="serverLocatKnowen">
+  <div v-else>
 
     <div class="flex justify-center">
 
