@@ -93,8 +93,15 @@ export default {
 
       } else {
 
-        let cdnsPlaces = cdnData[this.cuurentCdn].cdns;
+        for (let i = 0; i < this.cdnMarkers.length; i++) {
 
+          let m = this.cdnMarkers[i];
+
+          m.remove();
+
+        }
+
+        let cdnsPlaces = cdnData[this.cuurentCdn].cdns;
 
         for (let i = 0; i < cdnsPlaces.length; i++) {
 
