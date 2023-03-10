@@ -11,6 +11,8 @@
 
         <button class="block m-auto mt-4 bg-gradient-to-br from-pink-400 via-purple-400 to-indigo-500 p-2 rounded transition-all ease-linear hover:scale-110 duration-150" @click="continuebtn">Continue</button>
 
+        <button class="block m-auto mt-8 bg-slate-900 p-2 rounded cursor-pointer transition-all ease-in hover:scale-110 duration-150" @click="skipbtn">Skip</button>
+
       </div>
 
     </div>
@@ -22,7 +24,7 @@
 
       <div>
 
-        <h1>Server map</h1>
+        <h1 class="font-mono">Server map</h1>
         <span>Select a CDN</span>
         <select class="bg-slate-800 text-white p-2 m-2 rounded cursor-pointer" v-model="cuurentCdn" @change="updateCdn">
           <option value="none">None</option>
@@ -137,6 +139,20 @@ export default {
         }
 
       }
+
+    },
+
+    skipbtn() {
+
+      this.serverLocatKnowen = true;
+
+      let map = L.map("map").setView([this.serverLocat.lat, this.serverLocat.lon], 2);
+      this.map = map;
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      }).addTo(map);
+
 
     }
     
