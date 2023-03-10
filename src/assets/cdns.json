@@ -6765,6 +6765,254 @@
             }
 
         ]
+    },
+
+    "Netlify Regular CDN": {
+
+        "color": "#014847",
+        "fillColor": "#05bdba",
+        "info": "Netlify uses the Netlify CDN",
+        "cdns": [
+
+            {
+                "name": "Central Europe (Frankfurt, Germany)",
+                "lat": 50.1109,
+                "lon": 8.6821
+            },
+            {
+                "name": "South America (Sao Paulo, Brazil)",
+                "lat": -23.5505,
+                "lon": -46.6333
+            },
+            {
+                "name": "Eastern US (New York, USA)",
+                "lat": 40.7128,
+                "lon": -74.0060
+            },
+            {
+                "name": "Western US (San Francisco, USA)",
+                "lat": 37.7749,
+                "lon": -122.4194
+            },
+            {
+                "name": "Asia (Singapore, Republic of Singapore)",
+                "lat": 1.3521,
+                "lon": 103.8198
+            },
+            {
+                "name": "Australia (Sydney, Australia)",
+                "lat": -33.8688,
+                "lon": 151.2093
+            }
+
+        ]
+
+    },
+    "Netlify High-Performance CDN": {
+
+        "color": "#014847",
+        "fillColor": "#05bdba",
+        "info": "Netlify uses the Netlify CDN",
+        "cdns": [
+
+            {
+                "name": "Middle East (Muharraq Island, Kingdom of Bahrain)",
+                "lat": 26.26704,
+                "lon": 50.625079
+            }, {
+                "name": "Asia (Mumbai, India)",
+                "lat": 19.07609,
+                "lon": 72.877426
+            }, {
+                "name": "Asia (Incheon, South Korea)",
+                "lat": 37.456257,
+                "lon": 126.705209
+            }, {
+                "name": "South Africa (Cape Town, South Africa)",
+                "lat": -33.92584,
+                "lon": 18.42322
+            }, {
+                "name": "Eastern US (Ohio, USA)",
+                "lat": 40.417287,
+                "lon": -82.907123
+            }, {
+                "name": "Eastern US (New York, USA)",
+                "lat": 40.712776,
+                "lon": -74.005974
+            }, {
+                "name": "Central US (Iowa, USA)",
+                "lat": 41.878002,
+                "lon": -93.097702
+            }, {
+                "name": "Central US (Dallas, TX)",
+                "lat": 32.776665,
+                "lon": -96.796989
+            }, {
+                "name": "Western US (San Francisco, USA)",
+                "lat": 37.774929,
+                "lon": -122.419418
+            }, {
+                "name": "Eastern Canada (Montreal, Canada)",
+                "lat": 45.501690,
+                "lon": -73.567253
+            }, {
+                "name": "South America (Sao Paulo, Brazil)",
+                "lat": -23.550520,
+                "lon": -46.633309
+            }, {
+                "name": "Europe (Amsterdam, Netherlands)",
+                "lat": 52.370216,
+                "lon": 4.895168
+            }, {
+                "name": "Europe (Dublin, Ireland)",
+                "lat": 53.349804,
+                "lon": -6.260310
+            }, {
+                "name": "Europe (Frankfurt, Germany)",
+                "lat": 50.110924,
+                "lon": 8.682127
+            }, {
+                "name": "Europe (Hamina, Finland)",
+                "lat": 60.569977,
+                "lon": 27.188393
+            }, {
+                "name": "Europe (London, United Kingdom)",
+                "lat": 51.507351,
+                "lon": -0.127758
+            }, {
+                "name": "Asia (Tokyo, Japan)",
+                "lat": 35.676192,
+                "lon": 139.650311
+            }, {
+                "name": "Asia (Singapore, Republic of Singapore)",
+                "lat": 1.352083,
+                "lon": 103.819839
+            }, {
+                "name": "Oceania (Sydney, Australia)",
+                "lat": -33.865143,
+                "lon": 151.209900
+            }
+
+        ]
+
+    },
+
+    "Netlify CDN": {
+
+        "color": "#014847",
+        "fillColor": "#05bdba",
+        "info": "Netlify uses the Netlify CDN",
+        "cdns": [
+
+            {
+                "name": "Middle East (Muharraq Island, Kingdom of Bahrain)",
+                "lat": 26.26704,
+                "lon": 50.625079
+            }, {
+                "name": "Asia (Mumbai, India)",
+                "lat": 19.07609,
+                "lon": 72.877426
+            }, {
+                "name": "Asia (Incheon, South Korea)",
+                "lat": 37.456257,
+                "lon": 126.705209
+            }, {
+                "name": "South Africa (Cape Town, South Africa)",
+                "lat": -33.92584,
+                "lon": 18.42322
+            }, {
+                "name": "Eastern US (Ohio, USA)",
+                "lat": 40.417287,
+                "lon": -82.907123
+            }, {
+                "name": "Eastern US (New York, USA)",
+                "lat": 40.712776,
+                "lon": -74.005974
+            }, {
+                "name": "Central US (Iowa, USA)",
+                "lat": 41.878002,
+                "lon": -93.097702
+            }, {
+                "name": "Central US (Dallas, TX)",
+                "lat": 32.776665,
+                "lon": -96.796989
+            }, {
+                "name": "Western US (San Francisco, USA)",
+                "lat": 37.774929,
+                "lon": -122.419418
+            }, {
+                "name": "Eastern Canada (Montreal, Canada)",
+                "lat": 45.501690,
+                "lon": -73.567253
+            }, {
+                "name": "South America (Sao Paulo, Brazil)",
+                "lat": -23.550520,
+                "lon": -46.633309
+            }, {
+                "name": "Europe (Amsterdam, Netherlands)",
+                "lat": 52.370216,
+                "lon": 4.895168
+            }, {
+                "name": "Europe (Dublin, Ireland)",
+                "lat": 53.349804,
+                "lon": -6.260310
+            }, {
+                "name": "Europe (Frankfurt, Germany)",
+                "lat": 50.110924,
+                "lon": 8.682127
+            }, {
+                "name": "Europe (Hamina, Finland)",
+                "lat": 60.569977,
+                "lon": 27.188393
+            }, {
+                "name": "Europe (London, United Kingdom)",
+                "lat": 51.507351,
+                "lon": -0.127758
+            }, {
+                "name": "Asia (Tokyo, Japan)",
+                "lat": 35.676192,
+                "lon": 139.650311
+            }, {
+                "name": "Asia (Singapore, Republic of Singapore)",
+                "lat": 1.352083,
+                "lon": 103.819839
+            }, {
+                "name": "Oceania (Sydney, Australia)",
+                "lat": -33.865143,
+                "lon": 151.209900
+            }, {
+                "name": "Central Europe (Frankfurt, Germany)",
+                "lat": 50.1109,
+                "lon": 8.6821
+            },
+            {
+                "name": "South America (Sao Paulo, Brazil)",
+                "lat": -23.5505,
+                "lon": -46.6333
+            },
+            {
+                "name": "Eastern US (New York, USA)",
+                "lat": 40.7128,
+                "lon": -74.0060
+            },
+            {
+                "name": "Western US (San Francisco, USA)",
+                "lat": 37.7749,
+                "lon": -122.4194
+            },
+            {
+                "name": "Asia (Singapore, Republic of Singapore)",
+                "lat": 1.3521,
+                "lon": 103.8198
+            },
+            {
+                "name": "Australia (Sydney, Australia)",
+                "lat": -33.8688,
+                "lon": 151.2093
+            }
+
+        ]
+
     }
 
 
