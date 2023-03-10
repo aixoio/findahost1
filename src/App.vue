@@ -28,9 +28,24 @@
           <option value="none">None</option>
           <option v-for="cdn in allCdnNames" :key="cdn" :value="cdn">{{ cdn }}</option>
         </select>
+
         
       </div>
       
+    </div>
+    <div class="flex justify-center">
+
+      <div v-if="cuurentCdn != 'none'">
+    
+        <p>Note: {{ cdnInfo[cuurentCdn].info }}</p>
+        
+      </div>
+      <div v-else>
+
+        <p>Note: You are not using a CDN</p>
+
+      </div>
+
     </div>
     
   </div>
@@ -54,7 +69,8 @@ export default {
       allCdnNames: null,
       cuurentCdn: "none",
       cdnMarkers: [],
-      map: null
+      map: null,
+      cdnInfo: cdnData
 
     }
 
