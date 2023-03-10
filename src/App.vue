@@ -6,8 +6,8 @@
       <div>
 
         <h1>What is the location of your server?</h1>
-        <input type="number" placeholder="Lat" class="bg-transparent border-b border-b-black placeholder:text-gray-300 m-2 p-2 rounded" v-model="serverLocat.lat">
-        <input type="number" placeholder="Lon" class="bg-transparent border-b border-b-black placeholder:text-gray-300 m-2 p-2 rounded" v-model="serverLocat.lon">
+        <input type="number" placeholder="Lat" class="bg-transparent border-b border-b-black placeholder:text-gray-300 m-2 p-2 rounded focus:outline-none" v-model="serverLocat.lat">
+        <input type="number" placeholder="Lon" class="bg-transparent border-b border-b-black placeholder:text-gray-300 m-2 p-2 rounded focus:outline-none" v-model="serverLocat.lon">
 
         <button class="block m-auto mt-4 bg-gradient-to-br from-pink-400 via-purple-400 to-indigo-500 p-2 rounded transition-all ease-linear hover:scale-110 duration-150" @click="continuebtn">Continue</button>
 
