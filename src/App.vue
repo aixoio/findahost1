@@ -193,6 +193,8 @@ export default {
 
           circle.bindPopup("Your locaiton")
 
+          this.map.setView([lat, lon], 13);
+
           this.addedyourlocaiton = true;
           
         }, () => this.erroraddinglocaiton = true)
