@@ -22,14 +22,15 @@
 
     <div class="flex justify-center">
 
-      <div>
+      <div class="relative">
 
-        <h1 class="font-mono">Server map</h1>
-        <span>Select a CDN</span>
-        <select class="bg-slate-800 text-white p-2 m-2 rounded cursor-pointer" v-model="cuurentCdn" @change="updateCdn">
+        <h1 class="font-mono m-2">Server map</h1>
+        <span class="m-2">Select a CDN</span>
+        <select class="bg-slate-800 text-white p-2 rounded cursor-pointer w-fit h-8 hover:h-48 focus:h-48 focus:shadow ring-slate-500 focus:ring absolute transition-all duration-75 z-40 top-[5ch]" v-model="cuurentCdn" @change="updateCdn" multiple>
           <option value="none">None</option>
           <option v-for="cdn in allCdnNames" :key="cdn" :value="cdn">{{ cdn }}</option>
         </select>
+        <div class="m-2"></div>
         <div v-if="!addedyourlocaiton && !erroraddinglocaiton">
           <button class="block bg-gradient-to-r from-cyan-300 via-sky-400 to-blue-500 p-2 m-auto rounded mt-2 mb-2 shadow transition-all ease-in hover:scale-110 duration-150" @click="addyourlocationbtn">Add your location</button>
         </div>
@@ -61,7 +62,7 @@
     </div>
     
   </div>
-  <div id="map" class="mt-3"></div>
+  <div id="map" class="mt-3 z-20"></div>
 </template>
 
 <script>
@@ -79,7 +80,7 @@ export default {
         lon: 0,
       },
       allCdnNames: null,
-      cuurentCdn: "none",
+      cuurentCdn: ["none"],
       cdnMarkers: [],
       map: null,
       cdnInfo: cdnData,
@@ -130,23 +131,27 @@ export default {
           m.remove();
 
         }
+  
+        for (let j = 0; j < this.cuurentCdn.length; j++) {
+          
+          let cdnsPlaces = cdnData[this.cuurentCdn[j]].cdns;
 
-        let cdnsPlaces = cdnData[this.cuurentCdn].cdns;
+          for (let i = 0; i < cdnsPlaces.length; i++) {
 
-        for (let i = 0; i < cdnsPlaces.length; i++) {
+            let d = cdnsPlaces[i]
 
-          let d = cdnsPlaces[i]
+            let m = L.circle([d.lat, d.lon], {
 
-          let m = L.circle([d.lat, d.lon], {
+              color: cdnData[this.cuurentCdn[j]].color,
+              fillColor: cdnData[this.cuurentCdn[j]].fillColor,
+              fillOpacity: 0.5,
+              radius: 50000
 
-            color: cdnData[this.cuurentCdn].color,
-            fillColor: cdnData[this.cuurentCdn].fillColor,
-            fillOpacity: 0.5,
-            radius: 50000
+            }).addTo(this.map).bindPopup(`${this.cuurentCdn[j]} - ${d.name}`)
 
-          }).addTo(this.map).bindPopup(`${this.cuurentCdn} - ${d.name}`)
+            this.cdnMarkers.push(m)
 
-          this.cdnMarkers.push(m)
+          }
 
         }
 
