@@ -26,9 +26,9 @@
 
         <h1 class="font-mono m-2">Server map</h1>
         <span class="m-2">Select a CDN</span>
-        <select class="bg-slate-800 text-white p-2 rounded cursor-pointer w-fit h-10 hover:h-48 focus:h-48 focus:shadow ring-slate-500 focus:ring absolute transition-all duration-75 z-40 top-[4.5ch]" v-model="cuurentCdn" @change="updateCdn" multiple>
-          <option value="none" class="checked:bg-red-500 checked:text-white rounded p-0.5 hover:bg-slate-900 m-0.5">None</option>
-          <option v-for="cdn in allCdnNames" :key="cdn" :value="cdn" class="rounded p-0.5 hover:bg-slate-900 checked:bg-cyan-900 checked:text-white m-0.5">{{ cdn }}</option>
+        <select class="bg-slate-800 text-white p-2 rounded cursor-pointer w-fit h-8 hover:h-48 focus:h-48 focus:shadow ring-slate-500 focus:ring absolute transition-all duration-75 z-40 top-[5ch]" v-model="cuurentCdn" @change="updateCdn" multiple>
+          <option value="none">None</option>
+          <option v-for="cdn in allCdnNames" :key="cdn" :value="cdn">{{ cdn }}</option>
         </select>
         <div class="m-2"></div>
         <div v-if="!addedyourlocaiton && !erroraddinglocaiton">
