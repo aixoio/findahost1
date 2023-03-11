@@ -48,14 +48,14 @@
     </div>
     <div class="flex justify-center">
 
-      <div v-if="!cuurentCdn.includes('none')">
+      <div v-if="cuurentCdn != 'none'">
     
-        <p class="break-words max-w-[100ch]"><span class="font-mono font-bold">Note:</span> <span v-for="cdn in cuurentCdn" :key="cdn">{{ cdnInfo[cdn].info }}<span v-if="cuurentCdn.indexOf(cdn) != cuurentCdn.length - 1"> and </span></span></p>
+        <p>Note: {{ cdnInfo[cuurentCdn].info }}</p>
         
       </div>
       <div v-else>
 
-        <p><span class="font-mono font-bold">Note:</span> You are not using a CDN</p>
+        <p>Note: You are not using a CDN</p>
 
       </div>
 
@@ -112,7 +112,7 @@ export default {
 
     updateCdn() {
 
-      if (this.cuurentCdn.includes("none")) {
+      if (this.cuurentCdn == "none") {
 
         for (let i = 0; i < this.cdnMarkers.length; i++) {
 
