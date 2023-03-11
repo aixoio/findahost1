@@ -8578,6 +8578,333 @@
 
         ]
 
+    },
+
+    "Google Hosted Libraries": {
+
+        "color": "#dd4033",
+        "fillColor": "#fbbc04",
+        "info": "The Google Cloud CDN",
+        "cdns": [
+
+
+            {
+                "name": "Ashburn, Virginia, US",
+                "lat": 39.0438,
+                "lon": -77.4874
+            },
+            {
+                "name": "Atlanta, Georgia, US",
+                "lat": 33.749,
+                "lon": -84.388
+            },
+            {
+                "name": "Charleston, South Carolina, US",
+                "lat": 32.7765,
+                "lon": -79.9311
+            },
+            {
+                "name": "Chicago, Illinois, US",
+                "lat": 41.8781,
+                "lon": -87.6298
+            },
+            {
+                "name": "Council Bluffs, Iowa, US",
+                "lat": 41.2619,
+                "lon": -95.8608
+            },
+            {
+                "name": "Dallas/Fort Worth, Texas, US",
+                "lat": 32.7767,
+                "lon": -96.797
+            },
+            {
+                "name": "Denver, Colorado, US",
+                "lat": 39.7392,
+                "lon": -104.9903
+            },
+            {
+                "name": "Las Vegas, Nevada, US",
+                "lat": 36.1699,
+                "lon": -115.1398
+            },
+            {
+                "name": "Lenoir, North Carolina, US",
+                "lat": 35.914,
+                "lon": -81.5389
+            },
+            {
+                "name": "Los Angeles, California, US",
+                "lat": 34.0522,
+                "lon": -118.2437
+            },
+            {
+                "name": "Miami, Florida, US",
+                "lat": 25.7617,
+                "lon": -80.1918
+            },
+            {
+                "name": "Montréal, Québec, Canada",
+                "lat": 45.5017,
+                "lon": -73.5673
+            },
+            {
+                "name": "New York, New York, US",
+                "lat": 40.7128,
+                "lon": -74.006
+            },
+            {
+                "name": "Querétaro, Mexico",
+                "lat": 20.5888,
+                "lon": -100.3899
+            },
+            {
+                "name": "Salt Lake City, Utah, US",
+                "lat": 40.7608,
+                "lon": -111.891
+            },
+            {
+                "name": "San Francisco, California, US",
+                "lat": 37.7749,
+                "lon": -122.4194
+            },
+            {
+                "name": "Seattle, Washington, US",
+                "lat": 47.6062,
+                "lon": -122.3321
+            },
+            {
+                "name": "The Dalles, Oregon, US",
+                "lat": 45.5946,
+                "lon": -121.1787
+            },
+            {
+                "name": "Toronto, Ontario, Canada",
+                "lat": 43.6532,
+                "lon": -79.3832
+            },
+            {
+                "name": "Tulsa, Oklahoma, US",
+                "lat": 36.154,
+                "lon": -95.9928
+            }, {
+                "name": "Bogotá, Colombia",
+                "lat": -4.60971,
+                "lon": -74.08175
+            },
+            {
+                "name": "Buenos Aires, Argentina",
+                "lat": -34.60368,
+                "lon": -58.38156
+            },
+            {
+                "name": "Rio de Janeiro, Brazil",
+                "lat": -22.90642,
+                "lon": -43.18223
+            },
+            {
+                "name": "Santiago, Chile",
+                "lat": -33.44889,
+                "lon": -70.66927
+            },
+            {
+                "name": "São Paulo, Brazil",
+                "lat": -23.5475,
+                "lon": -46.63611
+            }, {
+                "name": "Amsterdam, Netherlands",
+                "lat": 52.370216,
+                "lon": 4.895168
+            },
+            {
+                "name": "Budapest, Hungary",
+                "lat": 47.497912,
+                "lon": 19.040235
+            },
+            {
+                "name": "Dublin, Ireland",
+                "lat": 53.349805,
+                "lon": -6.26031
+            },
+            {
+                "name": "Frankfurt, Germany",
+                "lat": 50.110924,
+                "lon": 8.682127
+            },
+            {
+                "name": "Groningen, Netherlands",
+                "lat": 53.2193835,
+                "lon": 6.5665018
+            },
+            {
+                "name": "Hamburg, Germany",
+                "lat": 53.5510846,
+                "lon": 9.9936819
+            },
+            {
+                "name": "Hamina, Finland",
+                "lat": 60.5693232,
+                "lon": 27.2014379
+            },
+            {
+                "name": "Helsinki, Finland",
+                "lat": 60.1698557,
+                "lon": 24.9383791
+            },
+            {
+                "name": "London, England",
+                "lat": 51.5073509,
+                "lon": -0.1277583
+            },
+            {
+                "name": "Madrid, Spain",
+                "lat": 40.4167754,
+                "lon": -3.7037902
+            },
+            {
+                "name": "Marseille, France",
+                "lat": 43.2961743,
+                "lon": 5.3699525
+            },
+            {
+                "name": "Milan, Italy",
+                "lat": 45.4667971,
+                "lon": 9.1904984
+            },
+            {
+                "name": "Munich, Germany",
+                "lat": 48.1371079,
+                "lon": 11.5753822
+            },
+            {
+                "name": "Paris, France",
+                "lat": 48.856614,
+                "lon": 2.3522219
+            },
+            {
+                "name": "Prague, Czech Republic",
+                "lat": 50.0755381,
+                "lon": 14.4378005
+            },
+            {
+                "name": "Sofia, Bulgaria",
+                "lat": 42.6977082,
+                "lon": 23.3218675
+            },
+            {
+                "name": "St. Ghislain, Belgium",
+                "lat": 50.4238368,
+                "lon": 3.8185089
+            },
+            {
+                "name": "Stockholm, Sweden",
+                "lat": 59.3293235,
+                "lon": 18.0685808
+            },
+            {
+                "name": "Warsaw, Poland",
+                "lat": 52.2296756,
+                "lon": 21.0122287
+            },
+            {
+                "name": "Zurich, Switzerland",
+                "lat": 47.3768866,
+                "lon": 8.541694
+            }, {
+                "name": "Fujairah, United Arab Emirates",
+                "lat": 25.123,
+                "lon": 56.341
+            },
+            {
+                "name": "Muscat, Oman",
+                "lat": 23.585,
+                "lon": 58.405
+            }, {
+                "name": "Changhua County, Taiwan",
+                "lat": 24.0518,
+                "lon": 120.5161
+            },
+            {
+                "name": "Chennai, India",
+                "lat": 13.0827,
+                "lon": 80.2707
+            },
+            {
+                "name": "Hong Kong SAR, China",
+                "lat": 22.3193,
+                "lon": 114.1694
+            },
+            {
+                "name": "Jakarta, Indonesia",
+                "lat": -6.2146,
+                "lon": 106.8451
+            },
+            {
+                "name": "Kuala Lumpur, Malaysia",
+                "lat": 3.139,
+                "lon": 101.6869
+            },
+            {
+                "name": "Mumbai, India",
+                "lat": 19.076,
+                "lon": 72.8777
+            },
+            {
+                "name": "Delhi, India",
+                "lat": 28.7041,
+                "lon": 77.1025
+            },
+            {
+                "name": "Osaka, Japan",
+                "lat": 34.6937,
+                "lon": 135.5022
+            },
+            {
+                "name": "Seoul, South Korea",
+                "lat": 37.5665,
+                "lon": 126.9780
+            },
+            {
+                "name": "Singapore",
+                "lat": 1.3521,
+                "lon": 103.8198
+            },
+            {
+                "name": "Taipei, Taiwan",
+                "lat": 25.0330,
+                "lon": 121.5654
+            },
+            {
+                "name": "Tokyo, Japan",
+                "lat": 35.6895,
+                "lon": 139.6917
+            }, {
+                "name": "Sydney, Australia",
+                "lat": "-33.865143",
+                "lon": "151.209900"
+            },
+            {
+                "name": "Melbourne, Australia",
+                "lat": "-37.813629",
+                "lon": "144.963058"
+            }, {
+                "name": "Johannesburg, South Africa",
+                "lat": -26.2041,
+                "lon": 28.0473
+            },
+            {
+                "name": "Lagos, Nigeria",
+                "lat": 6.5244,
+                "lon": 3.3792
+            },
+            {
+                "name": "Mombasa, Kenya",
+                "lat": -4.0435,
+                "lon": 39.6682
+            }
+
+        ]
+
     }
 
 
